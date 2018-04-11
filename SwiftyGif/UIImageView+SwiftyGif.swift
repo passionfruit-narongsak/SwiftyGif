@@ -161,14 +161,14 @@ public extension UIImageView {
     /**
      Start displaying the gif for this UIImageView.
      */
-    public func startAnimatingGif() {
+    @objc public func startAnimatingGif() {
         self.isPlaying = true
     }
     
     /**
      Stop displaying the gif for this UIImageView.
      */
-    public func stopAnimatingGif() {
+    @objc public func stopAnimatingGif() {
         self.isPlaying = false
     }
     
